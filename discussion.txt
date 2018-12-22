@@ -1,0 +1,36 @@
+I tested the code the same way you did on the window1.txt and window2.txt
+
+	First made the tutor.lnx
+	Then I transferred it to the VM
+	In the VM i did "mtip" followed by "~d"
+	Then did "go 100100"
+	Next, I switched to the remote VM to do the prompt after doing "spi on" on the VM
+	Afterwards, I did "timeon 5" and "timeoff"
+	Fianlly did the "spi off" and "~q" to exit the program 
+
+I also played around when the prompt appeared
+
+	Prompt: 
+hello
+
+	Prompt: 
+world
+
+	Prompt: 
+how are you
+
+	Prompt: 
+my
+
+	Prompt: 
+name 
+
+	Prompt: 
+is Sajana
+
+
+
+I found the "timeon 5" and "timeoff" commands to be intresting.
+Especially when you try to type "timeoff" to stop the timer and it breaks into
+"tim(5)", "eo(6)" and "ff(7)" 
+Also the way how your input in the remote VM is sent to the VM 
